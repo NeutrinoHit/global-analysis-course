@@ -1,0 +1,59 @@
+---
+title: 'Global Data Analysis in Physics: Slides'
+lang: en
+format:
+  html:
+    theme: cosmo
+    css:
+    - assets/site/neutrinohit-tokens.css
+    - assets/site/neutrinohit-base.css
+    - assets/site/neutrinohit-components.css
+    - assets/site/neutrinohit-projects.css
+    - shared/styles/course.css
+    include-after-body: shared/html/cloudflare-web-analytics.html
+toc: false
+---
+
+```{=html}
+<div class="course-index">
+  <section class="course-intro">
+    <p class="course-kicker">In preparation · English</p>
+    <h1>Global Data Analysis in Physics: Slides</h1>
+    <p>Joint data analysis, measurement precision, parameter degeneracies, systematics, significance and consistency between experiments. Examples from neutrino and particle physics, astrophysics and cosmology.</p>
+    <div class="course-links">
+      <a href="https://neutrinohit.github.io/">NeutrinoHit</a>
+      <a href="https://neutrinohit.github.io/en/courses/global-analysis.html">Course card</a>
+      <a href="../index.html">Course</a>
+      <a href="../../ru/slides/index.html" lang="ru">Русский</a>
+    </div>
+  </section>
+  <p class="course-author-note"><a href="https://neutrinohit.github.io/en/index.html">DN · NeutrinoHit</a></p>
+  <p>The lectures and book are in preparation. Teaching materials have not yet been published.</p>
+  <p>Plan: 16 lectures of 90 minutes, six computational practicals and a final project.</p>
+  <p>The course builds on <a href="https://neutrinohit.github.io/en/courses/statistical-analysis.html">DN's course in statistical data analysis</a>.</p>
+  <h2 class="course-section-title">Course outline</h2>
+  <div class="course-card-grid">
+<article class="course-card is-planned"><span class="course-card-status">01 · In preparation</span><h3>What does one experiment measure?</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">02 · In preparation</span><h3>Two bands in parameter space</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">03 · In preparation</span><h3>How data constrain systematic uncertainties</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">04 · In preparation</span><h3>Building a joint likelihood</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">05 · In preparation</span><h3>When an ellipse is not enough</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">06 · In preparation</span><h3>Why combined significance can grow more than expected</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">07 · In preparation</span><h3>Are the experiments consistent with one another?</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">08 · In preparation</span><h3>From oscillation probability to the Daya Bay spectrum</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">09 · In preparation</span><h3>Measuring oscillation parameters with Daya Bay data</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">10 · In preparation</span><h3>What reactor data add to accelerator measurements</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">11 · In preparation</span><h3>Combining channels in particle physics</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">12 · In preparation</span><h3>What supernovae tell us about cosmic expansion</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">13 · In preparation</span><h3>Supernovae and BAO: bringing distance measurements together</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">14 · In preparation</span><h3>Many events and a shared population: gravitational waves</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">15 · In preparation</span><h3>Choosing the next experiment</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">16 · In preparation</span><h3>How robust is the physical conclusion?</h3></article>
+</div>
+  <h2 class="course-section-title">Materials</h2>
+  <div class="course-material-grid">
+    <section class="course-material"><h3>Book</h3><p>The book is in preparation. No chapters have been published yet.</p></section>
+    <section class="course-material"><p>Problems, code, notebooks and data will accompany the completed lectures.</p></section>
+  </div>
+</div>
+```

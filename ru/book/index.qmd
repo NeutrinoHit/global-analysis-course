@@ -1,0 +1,5 @@
+# Глобальный анализ данных в физике {.unnumbered}
+
+Книга готовится. Главы ещё не опубликованы.
+
+[Курс](https://neutrinohit.github.io/global-analysis-course/ru/)

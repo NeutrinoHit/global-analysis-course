@@ -1,0 +1,56 @@
+title:
+  ru: Глобальный анализ данных в физике
+  en: Global Data Analysis in Physics
+summary:
+  ru: Совместный анализ данных, точность измерений, вырождения параметров, систематики, значимость и согласие экспериментов. Примеры из физики нейтрино и частиц, астрофизики и космологии.
+  en: Joint data analysis, measurement precision, parameter degeneracies, systematics, significance and consistency between experiments. Examples from neutrino and particle physics, astrophysics and cosmology.
+status: planned
+lectures:
+  - n: 1
+    slug: what_one_experiment_measures
+    title: {ru: 'Что измеряет один эксперимент?', en: 'What does one experiment measure?'}
+  - n: 2
+    slug: information_geometry
+    title: {ru: Две полосы на плоскости параметров, en: Two bands in parameter space}
+  - n: 3
+    slug: constraining_systematics
+    title: {ru: Как данные ограничивают систематику, en: How data constrain systematic uncertainties}
+  - n: 4
+    slug: joint_likelihood
+    title: {ru: Как построить совместное правдоподобие, en: Building a joint likelihood}
+  - n: 5
+    slug: nonlinear_degeneracies
+    title: {ru: Когда эллипса недостаточно, en: When an ellipse is not enough}
+  - n: 6
+    slug: combined_significance
+    title: {ru: Почему совместная значимость может вырасти сильнее ожидаемого, en: Why combined significance can grow more than expected}
+  - n: 7
+    slug: dataset_consistency
+    title: {ru: 'Согласуются ли эксперименты между собой?', en: 'Are the experiments consistent with one another?'}
+  - n: 8
+    slug: dayabay_spectral_model
+    title: {ru: От вероятности осцилляций к спектру Daya Bay, en: From oscillation probability to the Daya Bay spectrum}
+  - n: 9
+    slug: dayabay_parameter_fit
+    title: {ru: Измеряем осцилляционные параметры на данных Daya Bay, en: Measuring oscillation parameters with Daya Bay data}
+  - n: 10
+    slug: reactors_and_accelerators
+    title: {ru: Что реакторные данные добавляют ускорительным, en: What reactor data add to accelerator measurements}
+  - n: 11
+    slug: particle_physics_channels
+    title: {ru: Совместный анализ каналов в физике элементарных частиц, en: Combining channels in particle physics}
+  - n: 12
+    slug: supernovae_and_expansion
+    title: {ru: Что сверхновые говорят о расширении Вселенной, en: What supernovae tell us about cosmic expansion}
+  - n: 13
+    slug: supernovae_and_bao
+    title: {ru: 'Сверхновые и BAO: встреча разных измерений расстояния', en: 'Supernovae and BAO: bringing distance measurements together'}
+  - n: 14
+    slug: hierarchical_populations
+    title: {ru: 'Много событий и общая популяция: пример гравитационных волн', en: 'Many events and a shared population: gravitational waves'}
+  - n: 15
+    slug: designing_complementary_experiments
+    title: {ru: Как выбрать следующий эксперимент, en: Choosing the next experiment}
+  - n: 16
+    slug: robust_physical_conclusions
+    title: {ru: 'Насколько устойчив физический вывод?', en: 'How robust is the physical conclusion?'}

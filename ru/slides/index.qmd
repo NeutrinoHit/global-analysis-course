@@ -1,0 +1,59 @@
+---
+title: 'Глобальный анализ данных в физике: Слайды'
+lang: ru
+format:
+  html:
+    theme: cosmo
+    css:
+    - assets/site/neutrinohit-tokens.css
+    - assets/site/neutrinohit-base.css
+    - assets/site/neutrinohit-components.css
+    - assets/site/neutrinohit-projects.css
+    - shared/styles/course.css
+    include-after-body: shared/html/cloudflare-web-analytics.html
+toc: false
+---
+
+```{=html}
+<div class="course-index">
+  <section class="course-intro">
+    <p class="course-kicker">Готовится · Русский</p>
+    <h1>Глобальный анализ данных в физике: Слайды</h1>
+    <p>Совместный анализ данных, точность измерений, вырождения параметров, систематики, значимость и согласие экспериментов. Примеры из физики нейтрино и частиц, астрофизики и космологии.</p>
+    <div class="course-links">
+      <a href="https://neutrinohit.github.io/">NeutrinoHit</a>
+      <a href="https://neutrinohit.github.io/ru/courses/global-analysis.html">Карточка курса</a>
+      <a href="../index.html">Курс</a>
+      <a href="../../en/slides/index.html" lang="en">English</a>
+    </div>
+  </section>
+  <p class="course-author-note"><a href="https://neutrinohit.github.io/ru/index.html">DN · NeutrinoHit</a></p>
+  <p>Лекции и книга готовятся. Учебные материалы ещё не опубликованы.</p>
+  <p>План: 16 лекций по 90 минут, шесть вычислительных практикумов и итоговый проект.</p>
+  <p>Основа — <a href="https://neutrinohit.github.io/ru/courses/statistical-analysis.html">статистический курс DN</a>.</p>
+  <h2 class="course-section-title">Программа курса</h2>
+  <div class="course-card-grid">
+<article class="course-card is-planned"><span class="course-card-status">01 · Готовится</span><h3>Что измеряет один эксперимент?</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">02 · Готовится</span><h3>Две полосы на плоскости параметров</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">03 · Готовится</span><h3>Как данные ограничивают систематику</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">04 · Готовится</span><h3>Как построить совместное правдоподобие</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">05 · Готовится</span><h3>Когда эллипса недостаточно</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">06 · Готовится</span><h3>Почему совместная значимость может вырасти сильнее ожидаемого</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">07 · Готовится</span><h3>Согласуются ли эксперименты между собой?</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">08 · Готовится</span><h3>От вероятности осцилляций к спектру Daya Bay</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">09 · Готовится</span><h3>Измеряем осцилляционные параметры на данных Daya Bay</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">10 · Готовится</span><h3>Что реакторные данные добавляют ускорительным</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">11 · Готовится</span><h3>Совместный анализ каналов в физике элементарных частиц</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">12 · Готовится</span><h3>Что сверхновые говорят о расширении Вселенной</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">13 · Готовится</span><h3>Сверхновые и BAO: встреча разных измерений расстояния</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">14 · Готовится</span><h3>Много событий и общая популяция: пример гравитационных волн</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">15 · Готовится</span><h3>Как выбрать следующий эксперимент</h3></article>
+<article class="course-card is-planned"><span class="course-card-status">16 · Готовится</span><h3>Насколько устойчив физический вывод?</h3></article>
+</div>
+  <h2 class="course-section-title">Материалы</h2>
+  <div class="course-material-grid">
+    <section class="course-material"><h3>Книга</h3><p>Книга готовится. Главы ещё не опубликованы.</p></section>
+    <section class="course-material"><p>Задачи, код, ноутбуки и данные будут добавляться вместе с готовыми лекциями.</p></section>
+  </div>
+</div>
+```

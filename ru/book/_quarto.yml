@@ -1,0 +1,54 @@
+project:
+  type: book
+  output-dir: ../../_book/ru
+  post-render:
+  - _extensions/neutrinohit-media/prune.py
+  render:
+  - index.qmd
+  - '!planned/**'
+book:
+  title: Глобальный анализ данных в физике
+  output-file: global-analysis
+  author: Дмитрий В. Наумов
+  site-url: https://neutrinohit.github.io/global-analysis-course/ru/book/
+  repo-url: https://github.com/NeutrinoHit/global-analysis-course
+  repo-subdir: ru/book
+  chapters:
+  - index.qmd
+  search: true
+  reader-mode: true
+  downloads: []
+  page-footer:
+    left: © DN
+    right: NeutrinoHit
+lang: ru
+filters:
+- neutrinohit-media
+- assets/filters/hide-book-index.lua
+- assets/filters/neutrinohit-book.lua
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    css:
+    - assets/styles/neutrinohit-book.css
+    include-after-body: shared/html/cloudflare-web-analytics.html
+  pdf:
+    documentclass: scrbook
+    classoption:
+    - open=any
+    papersize: a4
+    fontsize: 11pt
+    toc: true
+    number-sections: true
+    pdf-engine: lualatex
+    keep-tex: true
+    include-in-header:
+    - shared/latex/neutrinohit-book.tex
+  epub:
+    toc: true
+    number-sections: true
+    css:
+    - assets/styles/neutrinohit-book.css

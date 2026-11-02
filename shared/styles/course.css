@@ -1,0 +1,4 @@
+/* Course homes provide their heading inside the shared course layout. */
+.quarto-title-block {
+  display: none;
+}

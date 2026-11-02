@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: _site
+  post-render:
+    - _extensions/neutrinohit-media/prune.py
+  render:
+    - index.qmd
+    - ru/index.qmd
+    - en/index.qmd
+    - "!**/planned/**"
+  resources:
+    - /assets/site/**
+
+website:
+  title: Global Data Analysis in Physics
+  site-url: https://neutrinohit.github.io/global-analysis-course/
+  repo-url: https://github.com/NeutrinoHit/global-analysis-course
+  navbar:
+    left:
+      - {href: "https://neutrinohit.github.io/", text: NeutrinoHit}
+      - {href: ru/index.qmd, text: Русский}
+      - {href: en/index.qmd, text: English}
+  page-footer:
+    left: © DN
+    right: NeutrinoHit
+
+format:
+  html:
+    theme: cosmo
+    toc: false
+    page-layout: full
+    css:
+      - assets/site/neutrinohit-tokens.css
+      - assets/site/neutrinohit-base.css
+      - assets/site/neutrinohit-components.css
+      - assets/site/neutrinohit-projects.css
+      - shared/styles/course.css
+    include-after-body: shared/html/cloudflare-web-analytics.html

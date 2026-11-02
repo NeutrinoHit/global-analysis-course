@@ -1,0 +1,24 @@
+---
+title: "Глобальный анализ данных в физике / Global Data Analysis in Physics"
+format: html
+toc: false
+---
+
+::: {.course-index}
+::: {.course-intro}
+# Глобальный анализ данных в физике
+
+Global Data Analysis in Physics
+
+Готовится · In preparation
+:::
+
+```{=html}
+<div class="language-choice-grid">
+  <a class="language-choice-card" href="ru/index.html" lang="ru"><strong>Русский</strong><span>Программа курса · слайды и книга готовятся</span></a>
+  <a class="language-choice-card" href="en/index.html" lang="en"><strong>English</strong><span>Course outline · slides and book in preparation</span></a>
+</div>
+```
+
+[NeutrinoHit](https://neutrinohit.github.io/)
+:::

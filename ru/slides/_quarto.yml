@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: ../../_site/ru/slides
+  post-render:
+  - _extensions/neutrinohit-media/prune.py
+  render:
+  - index.qmd
+  - '!planned/**'
+  resources:
+  - /shared/reveal/**
+  - /shared/styles/**
+  - /assets/site/**
+  - '!planned/**'
+lang: ru
+website:
+  title: Глобальный анализ данных в физике
+  site-url: https://neutrinohit.github.io/global-analysis-course/ru/slides/
+  navbar:
+    left:
+    - href: https://neutrinohit.github.io/global-analysis-course/ru/
+      text: Курс
+    - href: https://neutrinohit.github.io/ru/courses/global-analysis.html
+      text: Карточка курса
+    - href: https://neutrinohit.github.io/
+      text: NeutrinoHit
+  page-footer:
+    left: © DN
+    right: NeutrinoHit
+format:
+  revealjs:
+    theme:
+    - black
+    - shared/styles/neutrinohit-reveal.scss
+    include-after-body:
+    - text: <script data-external="1" data-context-home="https://neutrinohit.github.io/global-analysis-course/ru/"
+        data-context-home-label="Курс" src="shared/reveal/neutrinohit-reveal-footer.js"></script>
+    - shared/html/cloudflare-web-analytics.html
+    logo: shared/reveal/dvnlogo.png

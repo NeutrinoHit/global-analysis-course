@@ -1,0 +1,5 @@
+# Global Data Analysis in Physics {.unnumbered}
+
+The book is in preparation. No chapters have been published yet.
+
+[Course](https://neutrinohit.github.io/global-analysis-course/en/)
